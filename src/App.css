@@ -35,3 +35,22 @@ button {
 button:hover {
     background-color: #f57c00;
 }
+
+.contato {
+    position: fixed;
+    cursor: pointer;
+    right: 20px;
+    top:20px;
+    padding: 10px;
+    
+
+    a{
+    text-decoration: underline;
+    color: #000;
+    }
+}
+
+.link-contato:hover {
+    color: #f57c00;
+    text-decoration: none;
+}

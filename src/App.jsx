@@ -33,6 +33,9 @@ function App() {
         {weather && <WeatherInfo weather={weather}/>}
         {weatherForecast && <WeatherInfoForecast weatherForecast={weatherForecast}/>}
       </div>
+      <div className='contato'>
+        <a href="https://www.linkedin.com/in/jv-lunardi/" className='link-contato' target='_blank' >João Vitor Lunardi</a>
+      </div>
     </>
   )
 }
